@@ -1,0 +1,27 @@
+<!-- 3) Create a dynamic div and add 3 fields and a button in it. On click of the button, the values of the three fields should be 
+shown in an alert on the browser. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>display-numbers</title>
+    </head>
+    <body>
+        <script type="text/javascript">  
+            function myFunction(){  
+            var number=document.getElementById("number1").value;  
+            var number1=document.getElementById("number2").value;
+            var number2=document.getElementById("number3").value;  
+            alert(number + " " + number1 + " " + number2);  
+            }  
+        </script>  
+            <form>  
+                <div>
+                    value1 : <input type="text" id="number1"  name="number1"/><br/> 
+                    value1 : <input type="text" id="number2" name="number2"/><br/> 
+                    value1 : <input type="text" id="number3" name="number3"/><br/>  
+                    <input type="button" value="Show" onclick="myFunction()"/>  
+                </div>
+            </form>
+    </body>
+</html> 
