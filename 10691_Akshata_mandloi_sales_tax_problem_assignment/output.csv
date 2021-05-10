@@ -1,0 +1,4 @@
+Product_name,Product_costPrice,Country,sales_tax_percent,sales_tax_Amount,product_final_price
+paper,140,India,6,8.4,148.4
+paper,150,America,6,9.0,159.0
+paper,160,South-Africa,6,9.6,169.6
