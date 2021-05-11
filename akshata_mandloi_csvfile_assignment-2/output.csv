@@ -1,0 +1,4 @@
+Product , ProductcostPrice , ProductSalesTax , ProductSalesTaxAmount , FinalCost , Country
+Paper , 150 , 5 , 7.5 , 157.5 , India
+Paper , 160 , 6 , 9.6 , 169.6 , Russia
+Paper , 170 , 10 , 17 , 187 , America
