@@ -1,0 +1,25 @@
+{
+	"content" : [
+		{
+			"country" : "India",
+			"salesTaxPercent" : "10"
+		},
+		{
+			"country" : "Australia",
+			"salesTaxPercent" : "15"
+		},
+		{
+			"country" : "South Africa",
+			"salesTaxPercent" : "20"
+		},
+		{
+			"country" : "Shri Lanka",
+			"salesTaxPercent" : "25"
+		},
+		{
+			"country" : "Russia",
+			"salesTaxPercent" : "5"
+		}
+
+	]
+}
