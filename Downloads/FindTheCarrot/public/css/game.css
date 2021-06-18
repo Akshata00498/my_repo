@@ -1,0 +1,226 @@
+body{
+    overflow: hidden;
+    background-image: url("../media/image.jpeg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
+   background-repeat: no-repeat;
+   font-family: "Audiowide", sans-serif;
+}
+#showMoves{
+    color: blue;
+    height: 130px;
+    width: 150px;
+    background-color: skyblue;
+    margin-bottom: 180px;
+    text-align: center;
+    border: 5px solid black;
+    margin-left: 100px;
+    font-family: "Audiowide", sans-serif;
+   
+}
+#show{
+    margin-top: 20px;
+    background-color: orange;
+    height: 40px;
+    width: 90px;
+    border: 3px solid whitesmoke;
+    margin-left: 20px;
+    color: black;
+   
+}
+button
+{
+    text-align: center;
+    margin-top: 6px;
+}
+#uname{
+margin-left: 550px;    
+}
+#mazeCanvas{
+background: linear-gradient(-45deg, #f69d3c, #3f87a6, #ebf8e1);
+animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.dropdown1
+{
+    margin-left: 520px;
+    margin-top: 10px;
+    margin-right: 50px;
+    align-content: center;
+}
+
+#diffSelect:hover{background-color: whitesmoke; color: black;}
+#startMazeBtn:hover{background-color: yellow; color: black;}
+#exitbtn:hover{background-color: cyan; color: black;}
+
+#diffSelect{
+    background-color: whitesmoke;
+    height: 42px;
+    width: 120px;
+    margin-top: 10px;
+    border: 2px solid grey;
+    color: black;
+    margin-bottom: 10px;
+}
+/*
+#message::before{
+    content: '';
+    width: 450px;
+    height: 190px;
+    position: fixed;
+    background:rgba(0,0,0,0.3); 
+
+}*/
+
+#menu
+{
+    margin: auto;
+    padding: 10px;
+    height: 65px;
+    box-sizing: border-box;
+}
+#cngrts{
+     font-size: 45px;
+
+}
+h1
+{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+#view
+{
+    margin-top: 10px;
+   /* top:65px;*/
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 495px;
+}
+
+#startMazeBtn{
+    background-color: blue;
+    width: 120px;
+    height: 42px;
+    border: 2px solid grey;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10px;
+
+}
+#exitbtn{
+    width: 120px;
+    height: 42px;
+    border: 2px solid grey;
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+p{
+    font-weight: 1000;
+}
+input
+{
+    background-color: whitesmoke;
+    width: 70px;
+    height: 40px;
+    border : 5px solid grey;
+    text-align: center;
+    color: white;
+    
+}
+span
+{
+    border : 10px solid orange;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+#message
+{
+    width: 300px;
+    height: 350px;
+    position: fixed;
+    margin-left: 450px;
+    margin-top: 170px;
+    color: cyan;
+}
+#okBtn{
+   background-color: rebeccapurple;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    border : 5px solid grey;
+    text-align: center;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+#looseBtn{
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    border : 5px solid grey;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.dropbtn {
+  /*background-color: mediumpurple;*/
+  background-color: orange;
+  text-align: center;
+  color: white;
+  width: 120px;
+  height: 42px;
+  font-size: 14px;
+  border: none;
+  border: 2px solid grey;
+  margin-top: 10px;
+  margin-bottom: 15px;
+ 
+}
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: skyblue; color: black;}
